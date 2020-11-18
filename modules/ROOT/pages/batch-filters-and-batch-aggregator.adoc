@@ -100,7 +100,7 @@ You can also configure the batch aggregator scope to stream your records:
 
 [source,xml,linenums]
 ----
-<batch:step name="Strep2">
+<batch:step name="Step2">
 	<batch:aggregator streaming="true">
      <salesforce:create type="Lead" .../>
 	</batch:aggregator>
